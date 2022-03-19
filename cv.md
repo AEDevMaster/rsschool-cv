@@ -14,11 +14,13 @@ At the moment I work as a freelance layout designer. I do the layout of small mo
 * HTML
 * CSS/SASS
 * JS (in the process of studying)
+* Bootstrap
 * Git, GitHub
 * Webpack
 * PhpStorm, VS Code
 * Adobe Photoshop, Figma
 * BEM
+* PerfectPixel
 #
 ## Code Example
 ```
