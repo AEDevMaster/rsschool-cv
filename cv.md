@@ -1,7 +1,7 @@
 
 # Anastasiya Ermolenko
 ******************************************************************
-## Contacts:
+## Contacts
 * Location: Minsk, Belarus
 * Discord (GitHub): AEDevMaster
 * E-mail: a.ermolenko.work@yandex.by
@@ -10,7 +10,7 @@
 ## About Me
 At the moment I work as a freelance layout designer. I do the layout of small modules, which are then inserted into the site. I want to become a front-end developer. Therefore, I constantly try to develop and self-educate
 #
-## Skills and Proficiency:
+## Skills and Proficiency
 * HTML
 * CSS/SASS
 * JS (in the process of studying)
@@ -39,7 +39,7 @@ function makePhrases (){
 makePhrases();
 ```
 #
-## Education and courses:
+## Education and courses
 * University: Belarusian National Technical University, Civil Engineering major
 * Video course:
   * JS, CSS, HTML, Git video courses on YouTube channel Фрилансер по жизни - IT и фриланс
