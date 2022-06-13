@@ -40,12 +40,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    list-style: none;
-    padding: 0 20px 0 0;
+    list-style: none;    
 }
-/* .header__list:last-child {
-    margin: 0;
-} */
+.header__list li {
+    padding: 0;
+    margin-right: 20px;
+}
+.header__list li:last-child {    
+    margin-right: 0;
+}
 .header__item {
     transition: .3s;
 }
@@ -109,6 +112,68 @@ body {
     font-weight: 500;
     font-size: 28px;
     color: #01587a;
+}
+.section__list {
+    /* position: relative; */
+    list-style: none;
+}
+.section__list-item {
+    position: relative;
+    margin-bottom: 10px;
+    color: #01587a;
+}
+.section__list-item:hover a {
+    color: #f3ba00;
+}
+.section__list-item a {
+    text-decoration: none;
+    color: #5cb3c1;
+    /* font-weight: 500;
+    font-size: 26px; */
+}
+.section__list li:first-child:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: -35px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(img/location-icon.png);
+}
+.section__list li:nth-child(2):before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: -35px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(img/discord-logo.png);
+}    
+    .section__list li:nth-child(3):before {
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: -35px;
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(img/email-icon.png);
+}        
+.section__list li:nth-child(4):before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: -35px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(img/phone-icon.png);
 }
 .footer {
     min-height: 100px;
