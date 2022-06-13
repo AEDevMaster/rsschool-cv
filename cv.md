@@ -1,16 +1,16 @@
 
 # Anastasiya Ermolenko
 ******************************************************************
-## Contacts:
+## Contacts
 * Location: Minsk, Belarus
 * Discord (GitHub): AEDevMaster
 * E-mail: a.ermolenko.work@yandex.by
 * Tel: +375295767001
 #
 ## About Me
-At the moment I work as a freelance layout designer. I do the layout of small modules, which are then inserted into the site. I want to become a front-end developer. Therefore, I constantly try to develop and self-educate
+I am currently working as a freelance front-end developer. I do the layout of small modules, which I then insert on the site. I completed two commercial projects and several educational ones. I want to become an experienced front-end developer and work in a team of professionals. Therefore, I constantly try to develop and educate myself.
 #
-## Skills and Proficiency:
+## Skills and Proficiency
 * HTML
 * CSS/SASS
 * JS (in the process of studying)
@@ -24,23 +24,17 @@ At the moment I work as a freelance layout designer. I do the layout of small mo
 #
 ## Code Example
 ```
-function makePhrases (){
-    let words1 = ["24/7", "multi-tier", "30,000 foot", "B-to-B", "win-win"];
-    let words2 = ["empowered", "value-added", "oriented", "focused", "aligned"]
-    let words3 = ["process", "solution", "tipping-point", "strategy", "vision"]
-
-    let rand1 = Math.floor(Math.random() * words1.length);
-    let rand2 = Math.floor(Math.random() * words2.length);
-    let rand3 = Math.floor(Math.random() * words3.length);
-
-    let phrase = words1[rand1] + " " + words2[rand2] + " " + words3[rand3];
-    alert(phrase);
+function bark (name, weight){
+    if(weight > 20){
+        console.log (name + " say WOOF");
+    } else {
+        console.log (name + " say woof");
+    }
 }
-makePhrases();
 ```
 #
-## Education and courses:
-* University: Belarusian National Technical University, Civil Engineering major
+## Education and courses
+* University: Belarusian National Technical University
 * Video course:
   * JS, CSS, HTML, Git video courses on YouTube channel Фрилансер по жизни - IT и фриланс
 * Textbooks:

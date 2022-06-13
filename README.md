@@ -1,1 +1,1 @@
-https://AEDevMaster.github.io/rsschool-cv/
+https://AEDevMaster.github.io/rsschool-cv/cv
